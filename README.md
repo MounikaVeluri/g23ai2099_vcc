@@ -1,7 +1,10 @@
 # g23ai2099_vcc
-Flask application with Docker implementation
+Assignment 1: Docker Application Deployment
+Name: Mounika V S
+Rol.No: G23AI2099
+Subject: Virtualization and Cloud Computing
 
-Steps :
+Steps:
 
 1. Create "server.py" file with python codebase to start server
 
