@@ -62,7 +62,7 @@ Steps:
 5. Install docker desktop and check if the docker is running in the machine.
 6. open terminal and run the below command to create an image using the above application.
 
-		docker build -t g23ai2099_app:latest 
+		docker build -t g23ai2099_app:latest .
 
    ![image](https://github.com/user-attachments/assets/811965a5-e694-4914-b35e-3013fe6c014c)
    ![image](https://github.com/user-attachments/assets/d1096ef0-046e-496a-ad11-87efec9d5818)
@@ -71,8 +71,9 @@ Steps:
 
 7. Once images is created, execute the below command to start container
 
-		docker run -p 5000:5000 g23ai2099_app
+		docker run -d -p 5000:5000 g23ai2099_app
 ![image](https://github.com/user-attachments/assets/da85abaa-e99f-41c9-ae84-a8a8480b0b87)
+![image](https://github.com/user-attachments/assets/66fbc2b9-16a6-4481-bef9-98a6d81ce464)
 
 
 8. Once the application starts running inside the container , we can browse to localhost:5000 in browser
@@ -83,3 +84,4 @@ Steps:
 9. check the docker logs <container ID> to check terminal logs of application in case to debug
 
 		docker logs <container ID>
+![image](https://github.com/user-attachments/assets/6e129493-414e-47bd-a938-29f1ccec97b0)
