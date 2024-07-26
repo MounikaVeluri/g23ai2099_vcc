@@ -34,7 +34,7 @@ Steps:
 		Flask==2.0.3
 		Werkzeug==2.0.3
 		
-4. create "Dockerfile" with list of commands to be ran to serve the application
+4. create "Dockerfile" with list of commands to be run to serve the application
 
 		FROM python:3.9-slim-buster
 		WORKDIR /app
