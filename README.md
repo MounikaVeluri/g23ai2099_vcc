@@ -1,8 +1,12 @@
 # g23ai2099_vcc
 Assignment 1: Docker Application Deployment
+
 Name: Mounika V S
+
 Rol.No: G23AI2099
+
 Subject: Virtualization and Cloud Computing
+
 
 Steps:
 
