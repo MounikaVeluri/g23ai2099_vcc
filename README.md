@@ -50,6 +50,9 @@ Steps:
 		docker build -t g23ai2099_app:latest .
 
    ![image](https://github.com/user-attachments/assets/811965a5-e694-4914-b35e-3013fe6c014c)
+   ![image](https://github.com/user-attachments/assets/d1096ef0-046e-496a-ad11-87efec9d5818)
+
+
 
 8. Once images is created , execute the below command to start container
 
